@@ -1,4 +1,4 @@
-package unico.restfull.config.document;
+package unico.restfull.document;
 
 import java.io.Serializable;
 

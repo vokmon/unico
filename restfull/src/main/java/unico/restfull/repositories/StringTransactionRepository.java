@@ -3,7 +3,7 @@ package unico.restfull.repositories;
 import java.util.ArrayList;
 import java.util.List;
 
-import unico.restfull.config.document.StringTransaction;
+import unico.restfull.document.StringTransaction;
 
 /**
  * The data repository for {@link StringTransaction}

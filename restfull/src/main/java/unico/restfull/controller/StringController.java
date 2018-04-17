@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import unico.restfull.config.constant.Constant;
-import unico.restfull.config.document.StringTransaction;
+import unico.restfull.constant.Constant;
+import unico.restfull.document.StringTransaction;
 import unico.restfull.repositories.StringTransactionRepository;
 
 /**

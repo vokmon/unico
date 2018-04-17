@@ -1,4 +1,4 @@
-package unico.restfull.config.constant;
+package unico.restfull.constant;
 
 /**
  * The constant variables

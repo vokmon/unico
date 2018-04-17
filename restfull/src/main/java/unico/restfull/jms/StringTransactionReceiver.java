@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
-import unico.restfull.config.document.StringTransaction;
+import unico.restfull.document.StringTransaction;
 import unico.restfull.repositories.StringTransactionRepository;
 
 /**
