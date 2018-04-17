@@ -48,6 +48,9 @@ public class StringController {
 	@Autowired
 	private StringTransactionRepository stringTransactionRepository;
 
+	/**
+	 * The {@link ConnectionFactory}
+	 */
 	@Autowired
 	private ConnectionFactory connectionFactory;
 
