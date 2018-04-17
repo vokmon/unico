@@ -1,0 +1,51 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="https://www.howtodoinjava.com/xml/school" targetNamespace="http://localhost:8080/xml/gcdc"
+	elementFormDefault="qualified">
+
+	<xs:element name="GcdRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="num1" type="xs:int" />
+				<xs:element name="num2" type="xs:int" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="GcdResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="gcd" type="xs:int" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="GcdListRequest">
+		<xs:complexType>
+			<xs:sequence>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="GcdListResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="gcd" type="xs:int" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="GcdSumRequest">
+		<xs:complexType>
+			<xs:sequence>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="GcdSumResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="sum" type="xs:int" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
