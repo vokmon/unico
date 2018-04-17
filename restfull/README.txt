@@ -5,6 +5,7 @@ The url will be http://hostname:port/context/send?i1=value1&i2=value2
 Example
 http://localhost:8080/restful/send?i1=10&i2=20
 
+The value i1 will be added to the database followed by i2
 ----------------------------------------------------------------------------
 Service to returns a list of all the elements ever added to the queue from a database in the order added as a JSON structure. 
 The service is a 'GET' service so that it can be easily test by any broswer.

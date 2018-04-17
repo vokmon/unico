@@ -23,6 +23,7 @@
 		<spring-jms.version>5.0.5.RELEASE</spring-jms.version>
 		<activemq-core.version>5.7.0</activemq-core.version>
 		<jackson-databind.version>2.9.5</jackson-databind.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
